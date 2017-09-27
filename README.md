@@ -1,4 +1,4 @@
-# Add tags to Autoscaling Groups with Terraform
+# Add tags to Autoscaling Group Instances with Terraform
 
 This module makes it easy to apply tag maps to an autoscaling group's instances with Terraform.
 
