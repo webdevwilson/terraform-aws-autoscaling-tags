@@ -1,7 +1,8 @@
 variable autoscaling_group_arn {
-  default = "autoscaling_copy_tags"
+  description = "The ARN of the autoscaling group"
 }
 
 variable tags {
-  type    = "map"
+  description = "The tags that will be applied to the instances"
+  type        = "map"
 }
